@@ -1,0 +1,236 @@
+
+> nextjs_tailwind_shadcn_ts@0.1.0 dev
+> nodemon --exec "npx tsx server.ts" --watch server.ts --watch src --ext ts,tsx,js,jsx 2>&1 | tee dev.log
+
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): server.ts src/**/*[39m
+[33m[nodemon] watching extensions: ts,tsx,js,jsx[39m
+[32m[nodemon] starting `npx tsx server.ts`[39m
+> Ready on http://0.0.0.0:3000
+> Socket.IO server running at ws://0.0.0.0:3000/api/socketio
+ ○ Compiling / ...
+ ✓ Compiled / in 6.1s (966 modules)
+ GET / 200 in 6945ms
+ GET / 200 in 570ms
+ GET / 200 in 652ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 864ms (549 modules)
+ GET /favicon.ico 200 in 1002ms
+ GET / 200 in 345ms
+ GET /favicon.ico 200 in 11ms
+ GET / 200 in 172ms
+ GET /favicon.ico 200 in 8ms
+ ⚠ Cross origin request detected from preview-chat-01ec534c-4d10-40fb-acf9-bfd08636b092.space.z.ai t[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsx server.ts`[39m
+ ⨯ uncaughtException: Error: listen EADDRINUSE: address already in use 0.0.0.0:3002
+    at <unknown> (Error: listen EADDRINUSE: address already in use 0.0.0.0:3002) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3002
+}
+ ⨯ uncaughtException:  Error: listen EADDRINUSE: address already in use 0.0.0.0:3002
+    at <unknown> (Error: listen EADDRINUSE: address already in use 0.0.0.0:3002) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3002
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/home/z/my-project/.next/cache/webpack/client-development/0.pack.gz_' -> '/home/z/my-project/.next/cache/webpack/client-development/0.pack.gz'
+favicon.ico/route.js',
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 71ms
+ GET / 200 in 217ms
+ ○ Compiling /_not-found ...
+ �[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsx server.ts`[39m
+ ⨯ uncaughtException: Error: listen EADDRINUSE: address already in use 0.0.0.0:3002
+    at <unknown> (Error: listen EADDRINUSE: address already in use 0.0.0.0:3002) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3002
+}
+ ⨯ uncaughtException:  Error: listen EADDRINUSE: address already in use 0.0.0.0:3002
+    at <unknown> (Error: listen EADDRINUSE: address already in use 0.0.0.0:3002) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3002
+}
+ist/server/require.js
+- /home/z/my-project/node_modules/next/dist/server/load-components.js
+- /home/z/my-project/node_modules/next/dist/build/utils.js
+- /home/z/my-project/node_modules/next/dist/build/swc/options.js
+- /home/z/my-project/node_modules/next/dist/build/swc/index.js
+- /home/z/my-project/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /home/z/my-project/node_modules/next/dist/server/config.js
+- /home/z/my-project/node_modules/next/dist/server/next.js
+- /home/z/my-project/server.ts
+    at __webpack_require__.f.require (.next/server/webpack-runtime.js:208:28)
+    at <unknown> (.next/server/webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (.next/server/webpack-runtime.js:167:22)
+    at <unknown> (.next/server/app/favicon.ico/route.js:1:91716)
+    at Object.<anonymous> (.next/server/app/favicon.ico/route.js:1:91762) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 39ms
+ GET / 200 in 184ms
+ GET / 200 in 182ms
+ GET / 200 in 182ms
+ GET /_next/static/css/app/layout.css?v=1758693422959 404 in 108ms
+ GET /_next/static/chunks/main-app.js?v=1758693422959 404 in 58ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 159ms
+ ⨯ Error: Cannot find module './447.js'
+Require stack:
+- /home/z/my-project/.next/server/webpack-runtime.js
+- /home/z/my-project/.next/server/app/_not-found/page.js
+- /home/z/my-project/node_modules/next/dist/server/require.js
+- /home/z/my-project/node_modules/next/dist/server/load-components.js
+- /home/z/my-project/node_modules/next/dist/build/utils.js
+- /home/z/my-project/node_modules/next/dist/build/swc/options.js
+- /home/z/my-project/node_modules/next/dist/build/swc/index.js
+- /home/z/my-project/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /home/z/my-project/node_modules/next/dist/server/config.js
+- /home/z/my-project/node_modules/next/dist/server/next.js
+- /home/z/my-project/server.ts
+    at __webpack_require__.f.require (.next/server/webpack-runtime.js:208:28)
+    at <unknown> (.next/server/webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (.next/server/webpack-runtime.js:167:22)
+    at <unknown> (.next/server/app/favicon.ico/route.js:1:91716)
+    at Object.<anonymous> (.next/server/app/favicon.ico/route.js:1:91762) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 42ms
+ GET /_next/static/chunks/app/layout.js 404 in 147ms
+ GET /_next/static/chunks/app/page.js 404 in 147ms
+ GET / 200 in 160ms
+ GET /_next/static/css/app/layout.css?v=1758693427323 404 in 171ms
+ GET /_next/static/chunks/main-app.js?v=1758693427323 404 in 132ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 132ms
+ GET /_next/static/chunks/app/layout.js 404 in 63ms
+ ⨯ Error: Cannot find module './447.js'
+Require stack:
+- /home/z/my-project/.next/server/webpack-runtime.js
+- /home/z/my-project/.next/server/app/_not-found/page.js
+- /home/z/my-project/node_modules/next/dist/server/require.js
+- /home/z/my-project/node_modules/next/dist/server/load-components.js
+- /home/z/my-project/node_modules/next/dist/build/utils.js
+- /home/z/my-project/node_modules/next/dist/build/swc/options.js
+- /home/z/my-project/node_modules/next/dist/build/swc/index.js
+- /home/z/my-project/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /home/z/my-project/node_modules/next/dist/server/config.js
+- /home/z/my-project/node_modules/next/dist/server/next.js
+- /home/z/my-project/server.ts
+    at __webpack_require__.f.require (.next/server/webpack-runtime.js:208:28)
+    at <unknown> (.next/server/webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (.next/server/webpack-runtime.js:167:22)
+    at <unknown> (.next/server/app/favicon.ico/route.js:1:91716)
+    at Object.<anonymous> (.next/server/app/favicon.ico/route.js:1:91762) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 83ms
+ GET /_next/static/chunks/app/page.js 404 in 87ms
+ GET / 200 in 157ms
+ GET /_next/static/css/app/layout.css?v=1758693431069 404 in 153ms
+ GET /_next/static/chunks/main-app.js?v=1758693431069 404 in 101ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 101ms
+ GET /_next/static/chunks/app/layout.js 404 in 50ms
+ ⨯ Error: Cannot find module './447.js'
+Require stack:
+- /home/z/my-project/.next/server/webpack-runtime.js
+- /home/z/my-project/.next/server/app/_not-found/page.js
+- /home/z/my-project/node_modules/next/dist/server/require.js
+- /home/z/my-project/node_modules/next/dist/server/load-components.js
+- /home/z/my-project/node_modules/next/dist/build/utils.js
+- /home/z/my-project/node_modules/next/dist/build/swc/options.js
+- /home/z/my-project/node_modules/next/dist/build/swc/index.js
+- /home/z/my-project/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /home/z/my-project/node_modules/next/dist/server/config.js
+- /home/z/my-project/node_modules/next/dist/server/next.js
+- /home/z/my-project/server.ts
+    at __webpack_require__.f.require (.next/server/webpack-runtime.js:208:28)
+    at <unknown> (.next/server/webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (.next/server/webpack-runtime.js:167:22)
+    at <unknown> (.next/server/app/favicon.ico/route.js:1:91716)
+    at Object.<anonymous> (.next/server/app/favicon.ico/route.js:1:91762) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 33ms
+ GET /_next/static/chunks/app/page.js 404 in 89ms
+ GET / 200 in 164ms
+ GET /_next/static/css/app/layout.css?v=1758693437092 404 in 259ms
+ GET /_next/static/chunks/app/page.js 404 in 197ms
+ GET /_next/static/chunks/main-app.js?v=1758693437092 404 in 202ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 200ms
+ GET /_next/static/chunks/app/layout.js 404 in 204ms
+ ⨯ Error: Cannot find module './447.js'
+Require stack:
+- /home/z/my-project/.next/server/webpack-runtime.js
+- /home/z/my-project/.next/server/app/_not-found/page.js
+- /home/z/my-project/node_modules/next/dist/server/require.js
+- /home/z/my-project/node_modules/next/dist/server/load-components.js
+- /home/z/my-project/node_modules/next/dist/build/utils.js
+- /home/z/my-project/node_modules/next/dist/build/swc/options.js
+- /home/z/my-project/node_modules/next/dist/build/swc/index.js
+- /home/z/my-project/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /home/z/my-project/node_modules/next/dist/server/config.js
+- /home/z/my-project/node_modules/next/dist/server/next.js
+- /home/z/my-project/server.ts
+    at __webpack_require__.f.require (.next/server/webpack-runtime.js:208:28)
+    at <unknown> (.next/server/webpack-runtime.js:116:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (.next/server/webpack-runtime.js:167:22)
+    at <unknown> (.next/server/app/favicon.ico/route.js:1:91716)
+    at Object.<anonymous> (.next/server/app/favicon.ico/route.js:1:91762) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 31ms
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsx server.ts`[39m
+ ⨯ uncaughtException: Error: listen EADDRINUSE: address already in use 0.0.0.0:3002
+    at <unknown> (Error: listen EADDRINUSE: address already in use 0.0.0.0:3002) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3002
+}
+ ⨯ uncaughtException:  Error: listen EADDRINUSE: address already in use 0.0.0.0:3002
+    at <unknown> (Error: listen EADDRINUSE: address already in use 0.0.0.0:3002) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3002
+}
