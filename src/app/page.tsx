@@ -177,7 +177,7 @@ export default function Home() {
               <div className="flex items-center justify-center mb-4">
                 <Sparkles className="h-8 w-8 text-primary mr-2 animate-pulse" />
                 <h1 className="text-responsive-4xl font-bold tracking-tight mb-6">
-                  <span className="block">18+ Free</span>
+                  <span className="block">18+ Free Tools </span>
                   <span className="block text-gradient-2 glitch" data-text="Online Tools">Online Tools</span>
                 </h1>
                 <Star className="h-8 w-8 text-primary ml-2 animate-pulse" />
